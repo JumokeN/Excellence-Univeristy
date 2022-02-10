@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excellence University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a5f72bb481.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="about.html"> ABOUT</a></li>
+            <li><a href="course.html"> COURSE</a></li>
+            <li><a href="blog.html"> BLOG</a></li>
+            <li><a href="contact.html"> CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Program for 2022</h1>
+    </section>
+    <!---blog page content--->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="image of certificate" />
+          <h2>Our Certificate & Online Programs for 2022</h2>
+          <p>
+            The flexible path to success: Excellence University's study styles
+            and programs are tailored to your specific needs.
+          </p>
+          <br />
+          <p>
+            Thank you for visiting Excellence University! We provide all you
+            need to study anytime, wherever to students all over the world.
+            Whether you're looking for a distance learning program to study from
+            home or a program to experience university life on campus, we have
+            something for you. The majority of our programs are totally online,
+            with part-time study alternatives and extensive financial
+            opportunities, so you can select a degree that fits your learning
+            style and situation. We now have 85,000 students studying with us,
+            and we hope you will as well.
+          </p>
+
+          <br />
+          <p>
+            We provide competitive scholarships to students from all over the
+            world at Excellence University. It is based on your current
+            location, as well as your unique demands and circ.umstances
+          </p>
+
+          <br />
+          <p>
+            Make sure to apply by February 23rd, 2022, to be eligible for a
+            scholarship worth up to 80%! That takes a great burden off your
+            shoulders during your studies, allowing you to focus on your goals.
+            Take a look at your alternatives with us right now! Our goal is to
+            assist you in getting started on a degree that will change your
+            life.
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>25</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Architecture</span>
+            <span>17</span>
+          </div>
+          <div>
+            <span>History</span>
+            <span>24</span>
+          </div>
+          <div>
+            <span>Robotics</span>
+            <span>11</span>
+          </div>
+          <div>
+            <span>Physics</span>
+            <span>19</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Footer--->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Excellence University is a Top 20 public university with a global
+        reputation for fostering true talent and innovation. <br />
+        Excellence University combines a high level of research activity with a
+        high level of social mobility <br />
+        to elevate and expedite learner success in a global community by
+        focusing <br />
+        on the environment, health, technology, and justice. <br />
+        Excellence University has a student body of around 689,000 students and
+        466,000 alumni.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"> by Nna Adejumoke</i></p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu ------->
+
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showMenu() {
+        navlinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
